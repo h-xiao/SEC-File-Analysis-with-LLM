@@ -236,7 +236,7 @@ class MainProcess:
         EncodingOverride.set_preferred_encoding()
 
         # Main process logic, looping over tickers and PDFs
-        extract_ques_df = FileManager.read_csv(f"ques_to_extract_from_{self.file_type}_sec_files_using_llm.csv")
+        extract_ques_df = FileManager.read_csv(f"ques_to_ask_{self.file_type}.csv")
         ticker_sample = os.listdir(self.base_path)
 
         for ticker in ticker_sample:
@@ -273,6 +273,6 @@ class MainProcess:
 
 # Usage example
 if __name__ == "__main__":
-    process = MainProcess(r'config.ini', r'pdfs',
-                          r'llm_output','10-K')
+    process = MainProcess(r'/config.ini', r'/pdfs',
+                          r'/llm_output','10-K')
     process.run()

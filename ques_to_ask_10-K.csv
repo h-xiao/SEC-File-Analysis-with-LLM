@@ -1,0 +1,22 @@
+﻿ques,attr,extract_type
+Which year was this filing for?,which year,int
+"Are there any new risks compared to previous filings?   Answer True if yes, False if not or unknown.",new risks,boolean
+"Are there any planned acquisitions or expansions?  Answer True if yes, False if not or unknown.",planned acquisitions,boolean
+"What risks does the company acknowledge in its filings, give a brief description of each.",risks,str
+"How is the company mitigating each of these risks, give a brief description of how.",risk mitigations,str
+What is management’s perspective on the company's performance?,company performance,str
+Are there any specific challenges management is focusing on?,management challenges,str
+Are there any specific opportunities management is focusing on?,management opportunities,str
+How does management plan to grow the business?,business growth,str
+What investments is the company making in research and development?,research investments,str
+What are the long-term strategic goals of the company?,long term goals,str
+How does the company's performance compare with its industry peers?,peer performance comparison,str
+Are there any competitive advantages evident in the filings?,competitive advantage,str
+Are there any competitive disadvantages evident in the filings?,competitive disadvantage,str
+Are there any ongoing legal or regulatory issues affecting the company?,legal regulatory issues,str
+How might these issues impact the company's future operations?,legal regulatory impact,str
+How is the executive compensation structured?,executive comp,str
+Are there any significant changes in insider stock holdings?,insider holding changes,str
+What is the dividend policy and history?,dividend policy,str
+"What is the company's approach to environmental, social, and governance (ESG) factors?",esg approach,str
+Are there any initiatives or policies in place related to sustainability?,sustainability initiatives,str

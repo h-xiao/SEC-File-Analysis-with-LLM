@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This Python-based project analyzes SEC files (10-K, 10-Q) using Large Language Models (LLMs). It's designed to extract and process data from these documents, leveraging advanced Language Chain Generators, Data Extraction, and Natural Language Processing techniques.
+This Python-based project analyzes SEC files (10-K, 10-Q) using Large Language Models (LLMs). It's designed to extract and process data from these documents, leveraging advanced Language Chain Generators, Data Extraction, and Natural Language Processing techniques. Modify the "ques_to_ask_[file_type].csv" to extract these answers from the SEC file.
 
 ## Features
 
@@ -48,7 +48,7 @@ This Python-based project analyzes SEC files (10-K, 10-Q) using Large Language M
 ## Configuration
 
 - **config.ini:** Configurable settings like paths and tokens.
-- **ques_to_extract_from_[file_type]_sec_files_using_llm.csv:** Questions for data extraction.
+- **ques_to_ask_[file_type].csv:** Questions for data extraction.
 
 
 
