@@ -3,7 +3,6 @@ import pandas as pd
 import configparser
 import torch
 import dropbox
-#from some_module import PyPDFLoader, HuggingFacePipeline, etc.  # import necessary modules
 from langchain.document_loaders import PyPDFLoader
 from langchain import HuggingFacePipeline, PromptTemplate
 import re
