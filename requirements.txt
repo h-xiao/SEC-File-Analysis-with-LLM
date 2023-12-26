@@ -1,0 +1,11 @@
+auto-gptq==0.5.1
+langchain==0.0.334
+transformers==4.34.1
+pypdf==3.17.0
+InstructorEmbedding==1.0.1
+sentence_transformers==2.2.2
+chromadb==0.4.17
+Cython
+torch==2.1.0
+dropbox==11.36.2
+configparser
