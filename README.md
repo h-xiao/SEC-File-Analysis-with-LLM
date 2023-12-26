@@ -21,11 +21,11 @@ This Python-based project analyzes SEC files (10-K, 10-Q) using Large Language M
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/h-xiao/SEC-File-Analysis-with-LLM.git ```
+   git clone https://github.com/h-xiao/SEC-File-Analysis-with-LLM.git
 
 2. Install the required libraries:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
  
 ## Usage
 
@@ -35,7 +35,7 @@ This Python-based project analyzes SEC files (10-K, 10-Q) using Large Language M
 
 3. Execute the main script:
    ```bash
-   python sec_file_analysis_with_llm.py ```
+   python sec_file_analysis_with_llm.py
 
 ## Structure
 
