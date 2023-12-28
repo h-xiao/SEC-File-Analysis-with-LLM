@@ -7,5 +7,6 @@ sentence_transformers==2.2.2
 chromadb==0.4.17
 Cython
 torch==2.1.0
+tensorflow==2.14.0
 dropbox==11.36.2
 configparser
