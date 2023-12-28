@@ -14,7 +14,7 @@ from langchain.vectorstores import Chroma
 from transformers import AutoTokenizer, TextStreamer, pipeline
 from auto_gptq import AutoGPTQForCausalLM
 from langchain.chains import RetrievalQA
-
+import pickle
 
 SYSTEM_PROMPT = "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer."
 
